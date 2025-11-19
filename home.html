@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
   <title>Mi primera landing</title>
 </head>
 <body>
@@ -10,9 +11,11 @@
   <header>
     <h1>Mi primera web</h1>
     <nav>
-      <a href="https://facebook.com">Inicio</a>
-      <a href="https://instagram.com">Servicios</a>
-      <a href="./home.html">Contacto</a>
+      <ul>
+      	<li><a href="https://facebook.com">Inicio</a></li>
+      	<li><a href="https://instagram.com">Servicios</a></li>
+      	<li><a href="./home.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -26,10 +29,30 @@
     <section>
       <article>
         <h3>Nuestros servicios</h3>
-        <p>Servicio1</p>
-	<p>Servicio1</p>
+        <ul>
+	  <li>Servicio1</li>
+	  <li>Servicio1</li>
+	<ul>
       </article>
     </section>
+
+    <section class="destacados">
+      <div class="card">
+        <h3>Servicio A</h3>
+        <p>Descripción corta del servicio A.</p>
+      </div>
+
+      <div class="card">
+        <h3>Servicio B</h3>
+        <p>Descripción corta del servicio B.</p>
+      </div>
+
+      <div class="card">
+        <h3>Servicio C</h3>
+        <p>Descripción corta del servicio C.</p>
+      </div>
+    </section>
+
   </main>
 
   <footer>
